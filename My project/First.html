@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech and Speech to Text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text to Speech and Speech to Text</h1>
+        
+        <!-- Text-to-Speech Section -->
+        <section>
+            <h2>Text to Speech</h2>
+            <textarea id="text-input" placeholder="Enter text here"></textarea>
+            <div class="button-group">
+                <button id="speak-button">Speak</button>
+                <button id="clear-text">Clear Text</button>
+            </div>
+        </section>
+
+        <!-- Speech-to-Text Section -->
+        <section>
+            <h2>Speech to Text</h2>
+            <div class="button-group">
+                <button id="start-recording">Start </button>
+                <button id="stop-recording" disabled>Stop </button>
+                <button id="clear-speech">Clear Speech</button>
+            </div>
+            <textarea id="speech-output" placeholder="Transcribed text will appear here" readonly></textarea>
+        </section>
+    </div>
+    <script src="first.js"></script>
+</body>
+</html>
